@@ -4,8 +4,10 @@ using System.Text;
 
 namespace ScrumWayy.Models
 {
-    public class User : Entity
+    public class Voting : Entity
     {
-        public string Username { get; set; }
+        public List<User> Users { get; set; }
+
+
     }
 }

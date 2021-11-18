@@ -1,7 +1,5 @@
-﻿using ScrumWayy.ViewModels;
-using ScrumWayy.Views;
+﻿using ScrumWayy.Views;
 using System;
-using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace ScrumWayy
@@ -17,7 +15,7 @@ namespace ScrumWayy
 
         private async void OnMenuItemClicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("//LoginPage");
+            await Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
         }
     }
 }

@@ -4,8 +4,7 @@ using System.Text;
 
 namespace ScrumWayy.Models
 {
-    public class User : Entity
+    public class PlayingCards : Entity
     {
-        public string Username { get; set; }
     }
 }
